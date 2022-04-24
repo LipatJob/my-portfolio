@@ -2,6 +2,7 @@ import { graphql, Link } from "gatsby";
 import React from "react";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import Layout from "../../components/Layout";
 
 export default function Project({ data }) {
   const image = getImage(data.mdx.frontmatter.headerImage);
